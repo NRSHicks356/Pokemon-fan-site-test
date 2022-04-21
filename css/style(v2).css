@@ -89,7 +89,7 @@ p {
 }
 
 .buttons {
-    margin-right: 6cm;
+    margin-right: 6.5cm;
     margin-top: -5px;
     clear: right;
     float: right;
@@ -176,6 +176,9 @@ p {
     .navbar .navbar-collapse {
         text-align: center;
         padding-right: 10px;
+    }
+    .navbar {
+        padding-bottom: 1.1em;
     }
 }
 
