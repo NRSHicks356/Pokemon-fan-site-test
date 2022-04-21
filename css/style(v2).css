@@ -67,6 +67,14 @@ h2 {
     display: block;
 }
 
+#riolu-and-zorua-pic {
+    margin-top: -220px;
+}
+
+#riolu-and-zorua-section {
+    margin-bottom: -40px;
+}
+
 p {
     text-align: center;
     padding-top: 1em;
@@ -98,6 +106,23 @@ p {
     box-shadow: none !important;
 }
 
+.visabillity {
+    display: none;
+}
+
+.first-evolution,
+.second-evolution,
+.final-evolution {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.first-evolution.fade,
+.second-evolution.fade,
+.final-evolution.fade {
+    opacity: 0;
+}
+
 @media (max-width: 991.98px) {
     nav a {
         float: none;
@@ -122,9 +147,13 @@ p {
     .pokemon-images {
         height: 70%;
         width: 70%;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: -10px;
+        margin: 20px auto -10px;
+    }
+    #riolu-and-zorua-pic {
+        margin-top: 0;
+    }
+    #riolu-and-zorua-section {
+        margin-bottom: 0;
     }
     .pokemon-section {
         padding-bottom: 3.5em;
@@ -144,13 +173,9 @@ p {
     footer {
         font-size: 70%;
     }
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
     .navbar .navbar-collapse {
         text-align: center;
+        padding-right: 10px;
     }
 }
 
